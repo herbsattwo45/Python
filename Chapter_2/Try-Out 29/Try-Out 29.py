@@ -15,6 +15,7 @@ print(4 * 2)
 # Division: 16 divided by 2 equals 8
 print(16 / 2)
 
+
 # 2-10. Favorite Number
 # The goal is to store your favorite number in a variable
 # and then print a message that reveals it.
@@ -25,6 +26,3 @@ favorite_number = 7
 # Step 2: Print a message that includes your favorite number
 # str() converts the number into text so it can be joined with the sentence
 print("My favorite number is " + str(favorite_number) + ".")
-
-# Alternative cleaner way using f-strings (modern Python formatting)
-print(f"My favorite number is {favorite_number}.")
